@@ -4,7 +4,8 @@ from agents.run import RunConfig
 from dotenv import load_dotenv, find_dotenv
 from agents.tool import function_tool
 import os
-
+from agents import enable_verbose_stdout_logging
+enable_verbose_stdout_logging()
 
 load_dotenv(find_dotenv())
 
