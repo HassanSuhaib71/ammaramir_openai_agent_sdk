@@ -19,7 +19,7 @@ async def main():
 
     result = Runner.run_streamed(
         agent,
-        input="What Doc need for admission in Master in Germany for a Pakistani student.",
+        input="Who is the founder of Pakistan.",
 
     )
 
