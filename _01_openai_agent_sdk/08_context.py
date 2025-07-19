@@ -1,9 +1,4 @@
 from pydantic import BaseModel
-from agents import (
-    AsyncOpenAI,
-    OpenAIChatCompletionsModel,
-    RunConfig
-)
 import asyncio
 from dataclasses import dataclass
 from agents import Agent, Runner, RunContextWrapper, function_tool
