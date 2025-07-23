@@ -9,9 +9,7 @@ from agents import (
     TResponseInputItem,
     input_guardrail,
     output_guardrail,
-    AsyncOpenAI,
-    OpenAIChatCompletionsModel,
-    RunConfig
+    
 )
 from dotenv import load_dotenv
 import os
@@ -49,7 +47,7 @@ async def math_guardrail(
     )
 
 agent = Agent(
-    name="Customer Support Agent",
+    name="Math Support Agent",
     instructions="You are Math support agent. You help student with their questions.",
     input_guardrails=[math_guardrail],
 )
